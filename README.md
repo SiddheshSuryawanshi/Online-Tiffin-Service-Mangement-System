@@ -1,73 +1,83 @@
-# Online Tiffin Service Mangement System Using Django
+# Online Tiffin Service Management System
 
-Online Tiffin Service System is a Django based web application which strives to make an online portal for both vendors and customers. Using Interactive GUI anyone can quickly learn to use the complete system. This system will give power and flexibility to the administrator to manage the entire system from a single online portal.
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 
-In Online Tiffin Service System we use Python Django and SQLite Database. This project keeps the records of Tiffin’s orders. This project has three modules i.e. admin, vendor and customers.
+## 📝 Description
+A Django-based web application that creates an online portal for both vendors and customers to manage tiffin services. The system provides an interactive GUI and gives administrators the flexibility to manage the entire system from a single portal.
 
-Running the File:
+## 🚀 Features
 
-To run the file use the command:
-python manage.py runserver
+### Admin Module
+- Dashboard to view all databases, users, and vendors
+- User management (Add/Update/Delete/Edit)
+- Customer management
+- Vendor management
+- User group management
+- Profile management and password recovery
 
+### Vendor Module
+- Dashboard to view and manage orders
 
-Admin eamil - admin@admin.com
+### User Module
+- Browse available food items
+- Place orders
+- Profile management
+- Password settings
+- Secure logout
 
-admin username - admin
+## 💻 Tech Stack
+- Frontend: HTML, CSS, JavaScript
+- Backend: Python, Django
+- Database: SQLite
 
-admin -admin123
+## ⚙️ Installation
 
-Vendor ID
+1. Install Python 3.7 or higher
+2. Install Django 2.2.0:
+   ```bash
+   pip install django==2.2.0
+   ```
+3. Install dependencies:
+   ```bash
+   python -m pip install --user -r requirements.txt
+   ```
+4. Run the server:
+   ```bash
+   python manage.py runserver
+   ```
 
-11910617
-11910616
-11910615
+## 🔑 Login Credentials
 
+### Admin Access
+- Email: admin@admin.com
+- Username: admin
+- Password: admin123
 
-If your system doesn't have django installed. Please refer this link: https://docs.djangoproject.com/en/4.0/howto/windows/
+### Vendor IDs
+- 11910617
+- 11910616
+- 11910615
 
-In Online Tiffin Service System we use Python Django and SQLite Database. This project keeps the records of Tiffin’s orders. This project has three modules i.e. admin, vendor and customers.
+## 💡 Supported Operating Systems
+- Windows
+- Linux
+- macOS
 
-Admin Module
-Dashboard: In this section, admin can briefly view all the databases users and vendors.
-Users: In this section, admin can manage Users (Add/Update/Delete/Edit).
-Customers: In this section, admin can manage Users (Add/Update/Delete/Edit).
-Vendors: In this section, admin can manage Users (Add/Update/Delete/Edit).
-User Groups: In this section, admin can manage Users (Add/Update/Delete/Edit).
-Admin can also update his profile, change the password and recover the password.
+## 🔧 Requirements
+- Python 3.7+
+- Django 2.2.0
+- PIP (Python Package Manager)
 
-Vendor Module
-Dashboard: In this section, Vendor can briefly view all orders.
-User Module
-Home Page: In this section, user can view the home page of the web application and also view which food available in Tiffin service and order that food.
-My Profile: In this section, user can view and update his/her profile.
-Setting: In this section, user can change his/her password.
-Log out: The user can be logged off the system using this module.
-Technology Used in the project Online Tiffin Service Mangement
-We have developed this project using the below technology
-HTML : Page layout has been designed in HTML
-CSS : CSS has been used for all the desigining part
-JavaScript : All the validation task and animations has been developed by JavaScript
-Python : All the business logic has been implemented in Python
-SQLite : SQLite database has been used as database for the project
-Django : Project has been developed over the Django Framework
-Supported Operating System
-We can configure this project on following operating system.
-Windows : This project can easily be configured on windows operating system. For running this project on Windows system, you will have to install
-Python 2.7, PIP, Django.
-Linux : We can run this project also on all versions of Linux operating systemMac : We can also easily configured this project on Mac operating system.
-Online Tiffin Service Mangement Django Installation Steps :-
-Install Python 3.7 Or Higher
-Install Django version 2.2.0
-Install all dependencies cmd -python -m pip install --user -r requirements.txt
-Finally run cmd - python manage.py runserver
+## 📦 Quick Start
+If Django is not installed, please follow the [official Django installation guide](https://docs.djangoproject.com/en/4.0/howto/windows/)
 
-Admin Email - admin@admin.com
-Admin username - admin
-Admin Password -admin123
-Vendor ID
-11910617
-11910616
-11910615
+## 🤝 Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## 📝 License
+[MIT](https://choosealicense.com/licenses/mit/)
 
 
 
